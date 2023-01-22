@@ -1,9 +1,15 @@
 package main
 
-import "fmt"
+import (
+	n "c361CourseProject_UI/Navigation"
+)
 
 func main() {
 
-	fmt.Println("Hello World")
-
+	n.AppTitleIntro()
+	n.PickAnIngredient()
+	n.ChooseYourRecipe("CHICKEN")
+	n.NAVChooseYourRecipe()
+	n.Recipe("Chicken Fettucini Alfredo")
+	n.NAVRecipe()
 }
